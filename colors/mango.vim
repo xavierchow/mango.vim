@@ -27,6 +27,7 @@
   let Gray = "guifg=#bcbcbc guibg=NONE gui=NONE ctermfg=250 ctermbg=NONE cterm=NONE"
   let Blue = "guifg=#5fafdf guibg=NONE gui=NONE ctermfg=74 ctermbg=NONE cterm=NONE"
   let Pink = "guifg=#ff5faf guibg=NONE gui=NONE ctermfg=205 ctermbg=NONE cterm=NONE"
+  let Pink2 = "guifg=#ff87df guibg=NONE gui=NONE ctermfg=212 ctermbg=NONE cterm=NONE"
   let Purple = "guifg=#af87ff guibg=NONE gui=NONE ctermfg=141 ctermbg=NONE cterm=NONE"
   let Silver = "guifg=#8a8a8a guibg=NONE gui=NONE ctermfg=245 ctermbg=NONE cterm=NONE"
   let White = "guifg=#eeeeee guibg=#282828 gui=NONE ctermfg=255 ctermbg=NONE cterm=NONE"
@@ -45,7 +46,7 @@
     exe "hi Exception "       .Peach
     exe "hi Float "           .Blue
     exe "hi Function "        .Black
-    exe "hi Identifier "      .Black
+    exe "hi Identifier "      .Blue
     exe "hi Ignore "          .Blue
     exe "hi Include "         .Purple
     exe "hi Keyword "         .Peach
@@ -69,6 +70,8 @@
     exe "hi Tag "             .Black
     exe "hi Type "            .Orange
     exe "hi TypeDef "         .Orange
+    exe "hi javaScriptFuncExp "   .Pink2
+    exe "hi javaScriptBraces "    .Pink
 
     hi CursorLine   guifg=NONE      guibg=#ffffff   gui=NONE      ctermfg=NONE      ctermbg=231       cterm=NONE
     hi ColorColumn  guifg=#ff0000   guibg=#ffffff   gui=NONE      ctermfg=203       ctermbg=231       cterm=NONE
@@ -87,7 +90,7 @@
     exe "hi Exception "       .Peach
     exe "hi Float "           .Blue
     exe "hi Function "        .White
-    exe "hi Identifier "      .White
+    exe "hi Identifier "      .Blue
     exe "hi Ignore "          .Blue
     exe "hi Include "         .Purple
     exe "hi Keyword "         .Peach
@@ -111,6 +114,8 @@
     exe "hi Tag "             .White
     exe "hi Type "            .Orange
     exe "hi TypeDef "         .Orange
+    exe "hi javaScriptFuncExp "   .Pink2
+    exe "hi javaScriptBraces "    .Pink
 
     hi CursorLine   guifg=NONE      guibg=#1c1c1c   gui=NONE      ctermfg=NONE      ctermbg=234       cterm=NONE
     hi ColorColumn  guifg=#ff0000   guibg=#1c1c1c   gui=NONE      ctermfg=203       ctermbg=234       cterm=NONE
