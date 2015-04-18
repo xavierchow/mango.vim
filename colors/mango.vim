@@ -45,7 +45,7 @@
     exe "hi Delimiter "       .Black
     exe "hi Exception "       .Peach
     exe "hi Float "           .Blue
-    exe "hi Function "        .Black
+    exe "hi Function "        .Pink
     exe "hi Identifier "      .Blue
     exe "hi Ignore "          .Blue
     exe "hi Include "         .Purple
@@ -58,7 +58,7 @@
     exe "hi Number "          .Blue
     exe "hi Operator "        .Peach
     exe "hi PreCondit "       .Purple
-    exe "hi PreProc "         .Purple
+    exe "hi PreProc "         .Orange
     exe "hi Repeat "          .Peach
     exe "hi Special "         .Pink
     exe "hi SpecialChar "     .Pink
@@ -89,7 +89,7 @@
     exe "hi Delimiter "       .White
     exe "hi Exception "       .Peach
     exe "hi Float "           .Blue
-    exe "hi Function "        .White
+    exe "hi Function "        .Pink
     exe "hi Identifier "      .Blue
     exe "hi Ignore "          .Blue
     exe "hi Include "         .Purple
@@ -102,7 +102,7 @@
     exe "hi Number "          .Blue
     exe "hi Operator "        .Peach
     exe "hi PreCondit "       .Purple
-    exe "hi PreProc "         .Purple
+    exe "hi PreProc "         .Orange
     exe "hi Repeat "          .Peach
     exe "hi Special "         .Pink
     exe "hi SpecialChar "     .Pink
