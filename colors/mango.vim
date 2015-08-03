@@ -31,6 +31,7 @@
   let Purple = "guifg=#af87ff guibg=NONE gui=NONE ctermfg=141 ctermbg=NONE cterm=NONE"
   let Silver = "guifg=#8a8a8a guibg=NONE gui=NONE ctermfg=245 ctermbg=NONE cterm=NONE"
   let White = "guifg=#eeeeee guibg=#282828 gui=NONE ctermfg=255 ctermbg=NONE cterm=NONE"
+  let Buff = "guifg=wheat guibg=peru gui=NONE ctermfg=229 ctermbg=173 cterm=NONE"
 " }}}
 
 " Light Background: {{{
@@ -116,6 +117,7 @@
     exe "hi TypeDef "         .Orange
     exe "hi javaScriptFuncExp "         .Pink2
     exe "hi javaScriptBraces "         .Pink
+    exe "hi Search "         .Buff
 
     hi CursorLine   guifg=NONE      guibg=#1c1c1c   gui=NONE      ctermfg=NONE      ctermbg=234       cterm=NONE
     hi ColorColumn  guifg=#ff0000   guibg=#1c1c1c   gui=NONE      ctermfg=203       ctermbg=234       cterm=NONE
