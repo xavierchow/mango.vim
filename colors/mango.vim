@@ -46,8 +46,8 @@
     exe "hi Delimiter "       .Black
     exe "hi Exception "       .Peach
     exe "hi Float "           .Blue
-    exe "hi Function "        .Black
-    exe "hi Identifier "      .Black
+    exe "hi Function "        .Pink
+    exe "hi Identifier "      .Blue
     exe "hi Ignore "          .Blue
     exe "hi Include "         .Purple
     exe "hi Keyword "         .Peach
@@ -59,7 +59,7 @@
     exe "hi Number "          .Blue
     exe "hi Operator "        .Peach
     exe "hi PreCondit "       .Purple
-    exe "hi PreProc "         .Purple
+    exe "hi PreProc "         .Orange
     exe "hi Repeat "          .Peach
     exe "hi Special "         .Pink
     exe "hi SpecialChar "     .Pink
@@ -71,8 +71,8 @@
     exe "hi Tag "             .Black
     exe "hi Type "            .Orange
     exe "hi TypeDef "         .Orange
-    exe "hi javaScriptFuncExp "         .Pink2
-    exe "hi javaScriptBraces "         .Pink
+    exe "hi javaScriptFuncExp "   .Pink2
+    exe "hi javaScriptBraces "    .Pink
 
     hi CursorLine   guifg=NONE      guibg=#ffffff   gui=NONE      ctermfg=NONE      ctermbg=231       cterm=NONE
     hi ColorColumn  guifg=#ff0000   guibg=#ffffff   gui=NONE      ctermfg=203       ctermbg=231       cterm=NONE
