@@ -30,7 +30,8 @@
   let Pink2 = "guifg=#ff87df guibg=NONE gui=NONE ctermfg=212 ctermbg=NONE cterm=NONE"
   let Purple = "guifg=#af87ff guibg=NONE gui=NONE ctermfg=141 ctermbg=NONE cterm=NONE"
   let Silver = "guifg=#8a8a8a guibg=NONE gui=NONE ctermfg=245 ctermbg=NONE cterm=NONE"
-  let White = "guifg=#eeeeee guibg=#282828 gui=NONE ctermfg=255 ctermbg=NONE cterm=NONE"
+  let White = "guifg=#eeeeee guibg=#282828 gui=NONE ctermfg=253 ctermbg=NONE cterm=NONE"
+  let Purple2 = "guifg=#b294bb guibg=NONE gui=NONE ctermfg=109 ctermbg=NONE cterm=NONE"
 " }}}
 
 " Light Background: {{{
@@ -45,7 +46,7 @@
     exe "hi Delimiter "       .Black
     exe "hi Exception "       .Peach
     exe "hi Float "           .Blue
-    exe "hi Function "        .Black
+    exe "hi Function "        .Pink
     exe "hi Identifier "      .Blue
     exe "hi Ignore "          .Blue
     exe "hi Include "         .Purple
@@ -58,7 +59,7 @@
     exe "hi Number "          .Blue
     exe "hi Operator "        .Peach
     exe "hi PreCondit "       .Purple
-    exe "hi PreProc "         .Purple
+    exe "hi PreProc "         .Orange
     exe "hi Repeat "          .Peach
     exe "hi Special "         .Pink
     exe "hi SpecialChar "     .Pink
@@ -89,11 +90,12 @@
     exe "hi Delimiter "       .White
     exe "hi Exception "       .Peach
     exe "hi Float "           .Blue
-    exe "hi Function "        .White
+    exe "hi Function "        .Pink
     exe "hi Identifier "      .Blue
     exe "hi Ignore "          .Blue
     exe "hi Include "         .Purple
-    exe "hi Keyword "         .Peach
+    exe "hi Keyword "         .Orange
+    "exe "hi Keyword "         .Peach
     exe "hi Label "           .Peach
     exe "hi LineNr "          .Black
     exe "hi Macro "           .Purple
@@ -110,7 +112,7 @@
     exe "hi Statement "       .Peach
     exe "hi StorageClass "    .Orange
     exe "hi String "          .Green
-    exe "hi Structure "       .Orange
+    exe "hi Structure "       .Purple2
     exe "hi Tag "             .White
     exe "hi Type "            .Orange
     exe "hi TypeDef "         .Orange
@@ -122,6 +124,7 @@
   endif
 " }}}
 
+hi Search        guifg=#eeeeee   guibg=#ffff00   gui=NONE      ctermfg=232       ctermbg=180       cterm=NONE
 hi Error        guifg=#eeeeee   guibg=#ff0000   gui=NONE      ctermfg=255       ctermbg=196       cterm=NONE
 hi Todo         guifg=#080808   guibg=#ffd700   gui=NONE      ctermfg=232       ctermbg=220       cterm=NONE
 hi Underlined   guifg=NONE      guibg=NONE      gui=underline ctermfg=NONE      ctermbg=NONE      cterm=underline
